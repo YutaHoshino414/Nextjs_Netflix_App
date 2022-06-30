@@ -6,3 +6,7 @@ This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](
 ```
 npx create-next-app --example with-tailwindcss <app name>
 ```
+
+## Course
+
+[NETFLIX WITH NEXT.JS | Day 1 | Day 2](https://www.youtube.com/watch?v=cwqNAkwhKqw&t=719s) Tutorials on Youtube.
