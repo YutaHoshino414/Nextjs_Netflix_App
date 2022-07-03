@@ -8,6 +8,8 @@ module.exports = {
     extend: {},
   },
   plugins: [
+    require('tailwind-scrollbar'),
+    require('tailwind-scrollbar-hide'),
     /* use public package : https://www.npmjs.com/package/tailwindcss-textshadow */
     require('tailwindcss-textshadow')
     /* or */
