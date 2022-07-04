@@ -12,7 +12,7 @@ export default function Header() {
           height={100}
           className="cursor-pointer object-contain"
         />
-        <ul className='hidden space-x-4 md:flex'>
+        <ul className='hidden space-x-4 pl-3 md:flex'>
           <li className='headerLink'>Home</li>
           <li className='headerLink'>TV Shows</li>
           <li className='headerLink'>Movies</li>

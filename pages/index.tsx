@@ -28,7 +28,7 @@ const Home = (
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className='relative pl-4 pb-24 lg:space-y-24 lg:pl-16'>
+      <main className='relative px-6 pb-24 lg:space-y-24 lg:pl-16'>
         <Banner netflixOriginals={netflixOriginals} />
         <section className='md:space-y-24'>
           <Row title="Trending Now" movies={trendingNow} />
