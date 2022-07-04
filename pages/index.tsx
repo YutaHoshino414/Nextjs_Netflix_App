@@ -16,21 +16,21 @@ interface Props {   /* type definition from types.d.ts */
   documentaries:    Movie[]
 }
 
-const Home = ({ 
-  netflixOriginals,topRated,trendingNow, 
-  actionMovies,comedyMovies,documentaries,horrorMovies,romanceMovies,
-  }:Props) => {
+const Home = (
+  { netflixOriginals,topRated,trendingNow, 
+    actionMovies,comedyMovies,documentaries,horrorMovies,romanceMovies,}:Props) => {
   console.log(netflixOriginals)
+
   return (
-    <div className="">
+    <div className="relative h-screen bg-gradient-to-b from-gray-900/10 to-[#010511] ">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main>
+      <main className='relative pl-4 pb-24 lg:space-y-24 lg:pl-16'>
         <Banner netflixOriginals={netflixOriginals} />
-        <section>
+        <section className='md:space-y-24'>
           <Row title="Trending Now" movies={trendingNow} />
           <Row title="Top Rated" movies={topRated} />
           <Row title="Action Thrillers" movies={actionMovies} />

@@ -2,6 +2,8 @@ import Image from 'next/image'
 import { Movie } from '../types'
 
 interface Props {
+    // use after 2nd tutorial 
+    // movie:Movie | DcumentData
     movie: Movie
 }
 
