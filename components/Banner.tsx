@@ -29,10 +29,10 @@ function Banner({netflixOriginals}:Props) {
           objectFit='cover'
         />
       </div>
-      <h1 className="text-2xl font-bold md:text-4xl lg:text-7xl text-shadow-lg">
+      <h1 className="text-2xl font-bold md:text-4xl lg:text-7xl text-shadow-lg lg:max-w-5xl pt-3">
         {movie?.title || movie?.name || movie?.original_name}
       </h1>
-      <p className="max-w-xs text-xs text-shadow-lg md:max-w-lg md:text-lg lg:max-w-2xl lg:text-2xl">
+      <p className="max-w-xs text-xs text-shadow-lg md:max-w-xl md:text-lg lg:max-w-4xl lg:text-2xl">
         {movie?.overview}
       </p>
       <div className="flex space-x-3">
